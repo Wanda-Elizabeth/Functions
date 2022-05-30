@@ -1,7 +1,7 @@
 def multiply_and_greet(*args,**kwargs):
     multiply=1
-    for  num in args:
-     multiply *=num   
+    for  nums in args:
+     multiply *=nums   
     print (multiply)
     
     keys=kwargs.keys()
@@ -13,5 +13,6 @@ def multiply_and_greet(*args,**kwargs):
     elif 'age' in keys:
             print (f"Hello {kwargs['name']} you were born in {year}") 
     else:
-            print (f"Hello Anonymous" )   
+            print (f"Hello Anonymous" )
+               
                      
