@@ -1,6 +1,3 @@
-from doctest import REPORTING_FLAGS
-
-
 def multiply_and_greet(*args,**kwargs):
     multiply=1
     for  num in args:
